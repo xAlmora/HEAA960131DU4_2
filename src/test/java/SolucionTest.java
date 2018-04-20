@@ -4,7 +4,7 @@ public class SolucionTest {
 
     @org.junit.Test
     public void solucion() {
-        for(int i=2;i<10000;i++){
+        for(int i=2;i<100;i++){
             assertEquals(Solucion.solucion(generadoraDeRepetitivos(i,"testing")),true);
             assertEquals(Solucion.solucion(semiRepetitivos(i,"testing")),false);
             assertEquals(Solucion.solucion(noRepetitivos(i)),false);
