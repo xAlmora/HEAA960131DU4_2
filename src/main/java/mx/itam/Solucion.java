@@ -1,3 +1,4 @@
+package mx.itam;
 public class Solucion {
     public static boolean solucion(String initialString){
         String aux = "";
