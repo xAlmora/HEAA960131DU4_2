@@ -16,3 +16,5 @@ target/surefire/surefire5769346526420531472tmp
 target/surefire/surefire_04649850281579256587tmp
 target/surefire/surefirebooter6657205251275896897.jar
 target/surefire-reports/TEST-SolucionTest.xml
+*.properties
+*.jar
