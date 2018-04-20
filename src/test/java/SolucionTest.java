@@ -8,6 +8,7 @@ public class SolucionTest {
             assertEquals(Solucion.solucion(generadoraDeRepetitivos(i,"testing")),true);
             assertEquals(Solucion.solucion(semiRepetitivos(i,"testing")),false);
             assertEquals(Solucion.solucion(noRepetitivos(i)),false);
+            assertEquals(Solucion.solucion(generadoraDeRepetitivosTrampa(i,"testing")),false);
 
         }
     }
@@ -17,6 +18,14 @@ public class SolucionTest {
         for(int i=0;i<repeticiones; i++){
             sb.append(pattern);
         }
+        return sb.toString();
+    }
+    public String generadoraDeRepetitivosTrampa(int repeticiones, String pattern){
+        StringBuilder sb = new StringBuilder();
+        for(int i=0;i<repeticiones; i++){
+            sb.append(pattern);
+        }
+        sb.append("0");
         return sb.toString();
     }
     //tiene un char que hace imposible que se pueda generar
