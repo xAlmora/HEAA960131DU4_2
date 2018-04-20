@@ -7,3 +7,12 @@
 HEAA960131DU4_2.iml
 src/main/.DS_Store
 src/main/java/Solucion.class
+.idea/libraries/Maven__junit_junit_4_12.xml
+.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+*.class
+*.lst
+target/surefire-reports/SolucionTest.txt
+target/surefire/surefire5769346526420531472tmp
+target/surefire/surefire_04649850281579256587tmp
+target/surefire/surefirebooter6657205251275896897.jar
+target/surefire-reports/TEST-SolucionTest.xml
